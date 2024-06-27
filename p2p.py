@@ -11,6 +11,10 @@ import secrets
 บนเครื่องที่สอง: python p2p_node.py 5001
 ใช้ตัวเลือกที่ 1 บนเครื่องใดเครื่องหนึ่งเพื่อเชื่อมต่อกับอีกเครื่อง """
 
+# wallet = 0x6222fb2521bac69b5b61b1e105aceb1c8eb80890
+# wallet2 = 0x7651b52d6cdb52fe2c18c65e3e5596a45f674e75
+
+
 class Node:
     def __init__(self, host, port):
         self.host = host
